@@ -1,0 +1,3 @@
+# Offline mode needs only the Python standard library (3.10+).
+# Live mode (--live) needs the Anthropic SDK:
+anthropic
