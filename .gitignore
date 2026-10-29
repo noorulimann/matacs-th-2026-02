@@ -1,0 +1,15 @@
+# The brief must not be redistributed (see brief: "Do not copy this brief ... into your repository")
+MATACS-TH-2026-02_Candidate_Brief.md
+
+# Proposal source text is supplied locally only (live mode); never committed
+prototype/samples/
+
+# Secrets
+.env
+
+# Run outputs
+prototype/output/
+
+__pycache__/
+*.pyc
+.venv/

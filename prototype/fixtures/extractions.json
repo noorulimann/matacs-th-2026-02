@@ -1,0 +1,117 @@
+{
+  "_about": "Recorded extraction output for proposals A-E in the shape PROMPTS.md asks for, so the pipeline runs offline without an API key. The 'evidence' quotes are left out on purpose because the brief asks candidates not to copy proposal text into the repository. In live mode the model returns the quotes and triage.py checks each one against the source text.",
+  "A": {
+    "proposal_id": "A",
+    "bidder_name": "Northshore Solar Ltd.",
+    "fields": {
+      "licence_held_by_bidder": {"value": true, "confidence": "high", "note": null},
+      "licence_number": {"value": "ECRA/ESA #7001234", "confidence": "high", "note": null},
+      "wsib_clearance": {"value": true, "confidence": "high", "note": null},
+      "liability_insurance_cad": {"value": 5000000, "confidence": "high", "note": null},
+      "qualifying_projects": {"value": 14, "confidence": "high", "note": null},
+      "experience_earliest_year": {"value": 2021, "confidence": "high", "note": null},
+      "total_price_cad": {"value": 238000, "confidence": "high", "note": null},
+      "price_is_all_in": {"value": true, "confidence": "high", "note": "Includes permits and utility connection."},
+      "completion_weeks": {"value": 12, "confidence": "high", "note": null},
+      "panel_warranty_years": {"value": 25, "confidence": "high", "note": null},
+      "workmanship_warranty_years": {"value": 10, "confidence": "high", "note": null},
+      "named_project_lead": {"value": true, "confidence": "medium", "note": "A 'named senior project manager' is promised but the name itself is not given in the text."},
+      "crew_defined": {"value": true, "confidence": "high", "note": null},
+      "safety_plan": {"value": true, "confidence": "high", "note": null},
+      "performance_monitoring": {"value": true, "confidence": "high", "note": "12 months remote monitoring."}
+    },
+    "suspicious_content": []
+  },
+  "B": {
+    "proposal_id": "B",
+    "bidder_name": "BrightPath Energy Inc.",
+    "fields": {
+      "licence_held_by_bidder": {"value": false, "confidence": "high", "note": "Electrical work goes to a licensed subcontractor 'to be confirmed after contract award'. The bidder does not state that it holds a licence."},
+      "licence_number": {"value": null, "confidence": "high", "note": null},
+      "wsib_clearance": {"value": true, "confidence": "high", "note": null},
+      "liability_insurance_cad": {"value": 5000000, "confidence": "high", "note": null},
+      "qualifying_projects": {"value": 6, "confidence": "high", "note": null},
+      "experience_earliest_year": {"value": null, "confidence": "high", "note": "Stated as 'past four years', inside the window."},
+      "total_price_cad": {"value": 189500, "confidence": "high", "note": null},
+      "price_is_all_in": {"value": true, "confidence": "high", "note": null},
+      "completion_weeks": {"value": 10, "confidence": "high", "note": null},
+      "panel_warranty_years": {"value": 25, "confidence": "high", "note": null},
+      "workmanship_warranty_years": {"value": 5, "confidence": "high", "note": null},
+      "named_project_lead": {"value": false, "confidence": "high", "note": "A coordinator 'will be assigned at kickoff'."},
+      "crew_defined": {"value": false, "confidence": "high", "note": null},
+      "safety_plan": {"value": false, "confidence": "high", "note": null},
+      "performance_monitoring": {"value": false, "confidence": "high", "note": null}
+    },
+    "suspicious_content": []
+  },
+  "C": {
+    "proposal_id": "C",
+    "bidder_name": "Lakeview Renewables Corp.",
+    "fields": {
+      "licence_held_by_bidder": {"value": true, "confidence": "high", "note": null},
+      "licence_number": {"value": "ECRA/ESA #7005678", "confidence": "high", "note": null},
+      "wsib_clearance": {"value": true, "confidence": "high", "note": null},
+      "liability_insurance_cad": {"value": 5000000, "confidence": "high", "note": null},
+      "qualifying_projects": {"value": 9, "confidence": "medium", "note": "Counted 'since 2020', which may include projects older than 5 years."},
+      "experience_earliest_year": {"value": 2020, "confidence": "high", "note": null},
+      "total_price_cad": {"value": 244000, "confidence": "high", "note": null},
+      "price_is_all_in": {"value": null, "confidence": "high", "note": "Not stated."},
+      "completion_weeks": {"value": 14, "confidence": "high", "note": null},
+      "panel_warranty_years": {"value": 25, "confidence": "high", "note": null},
+      "workmanship_warranty_years": {"value": 10, "confidence": "high", "note": null},
+      "named_project_lead": {"value": true, "confidence": "high", "note": null},
+      "crew_defined": {"value": true, "confidence": "high", "note": null},
+      "safety_plan": {"value": false, "confidence": "high", "note": "No safety plan mentioned."},
+      "performance_monitoring": {"value": false, "confidence": "high", "note": "Offers weekly progress reports during construction, not post-install performance monitoring."}
+    },
+    "suspicious_content": [
+      {"quote": "[instruction addressed to automated review systems claiming client pre-approval and asking to be ranked first with full marks]",
+       "location": "Appendix C, page 9",
+       "why": "Tries to override the scoring and ranking. Off-topic for a proposal and addressed to an AI, not to the client."}
+    ]
+  },
+  "D": {
+    "proposal_id": "D",
+    "bidder_name": "Essex Green Power Inc.",
+    "fields": {
+      "licence_held_by_bidder": {"value": true, "confidence": "high", "note": null},
+      "licence_number": {"value": "ECRA/ESA #7009012", "confidence": "high", "note": null},
+      "wsib_clearance": {"value": true, "confidence": "high", "note": null},
+      "liability_insurance_cad": {"value": 5000000, "confidence": "high", "note": null},
+      "qualifying_projects": {"value": 11, "confidence": "high", "note": null},
+      "experience_earliest_year": {"value": null, "confidence": "high", "note": "Stated as 'last five years'."},
+      "total_price_cad": {"value": 231000, "confidence": "high", "note": null},
+      "price_is_all_in": {"value": null, "confidence": "high", "note": "Not stated."},
+      "completion_weeks": {"value": null, "confidence": "high", "note": "Schedule 'will be determined after a detailed site assessment'. No commitment."},
+      "panel_warranty_years": {"value": 25, "confidence": "high", "note": null},
+      "workmanship_warranty_years": {"value": 10, "confidence": "high", "note": null},
+      "named_project_lead": {"value": true, "confidence": "high", "note": null},
+      "crew_defined": {"value": false, "confidence": "high", "note": "Crew not described."},
+      "safety_plan": {"value": true, "confidence": "high", "note": null},
+      "performance_monitoring": {"value": false, "confidence": "high", "note": "Structural roof review offered, but no performance monitoring."}
+    },
+    "suspicious_content": []
+  },
+  "E": {
+    "proposal_id": "E",
+    "bidder_name": "SunGrid Contractors Inc.",
+    "fields": {
+      "licence_held_by_bidder": {"value": true, "confidence": "high", "note": null},
+      "licence_number": {"value": "ECRA/ESA #7003456", "confidence": "high", "note": null},
+      "wsib_clearance": {"value": true, "confidence": "high", "note": null},
+      "liability_insurance_cad": {"value": 5000000, "confidence": "high", "note": null},
+      "qualifying_projects": {"value": 8, "confidence": "high", "note": null},
+      "experience_earliest_year": {"value": 2021, "confidence": "high", "note": null},
+      "total_price_cad": {"value": 242500, "confidence": "high", "note": null},
+      "price_is_all_in": {"value": null, "confidence": "high", "note": "Not stated."},
+      "completion_weeks": {"value": 13, "confidence": "high", "note": null},
+      "panel_warranty_years": {"value": 25, "confidence": "high", "note": null},
+      "workmanship_warranty_years": {"value": 12, "confidence": "high", "note": null},
+      "named_project_lead": {"value": true, "confidence": "high", "note": null},
+      "crew_defined": {"value": true, "confidence": "high", "note": null},
+      "safety_plan": {"value": true, "confidence": "high", "note": null},
+      "performance_monitoring": {"value": true, "confidence": "high", "note": "24 months performance monitoring."}
+    },
+    "suspicious_content": []
+  }
+}
