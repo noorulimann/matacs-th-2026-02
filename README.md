@@ -47,4 +47,4 @@ The sample proposal text is not in this repository, because the brief asks candi
 
 I used Claude (Claude Code) to turn the brief into an implementation plan and then build each deliverable. I verified that every rule (mandatory gates, budget and 16-week limits, weights adding up to 100%) matched the brief, and I had the AI do only one job: read each proposal and fill each criterion's fields, with an exact quote as evidence. At the end, I reviewed the flags, overrides and award steps myself.
 
-**Where I disagreed:** [TODO: one real example of where you corrected or rejected the AI's output, and why.]
+**Where I disagreed:** I didn't let the AI score or rank the proposals; scoring stays in plain code. The weights and scoring rules are admin data that can change, so they belong in configuration, not inside a prompt. Scores must also come out the same on every run, which plain code guarantees and an AI doesn't. Keeping the AI out of scoring also means an injection like the one in Proposal C can't change a score or a rank.
