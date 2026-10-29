@@ -2,10 +2,10 @@
 
 | | |
 | --- | --- |
-| **Candidate** | [TODO: your full name] |
+| **Candidate** | Noor ul Iman |
 | **Reference** | MATACS-TH-2026-02 |
 | **Role** | Associate Software Developer |
-| **Time actually spent** | [TODO: e.g. 75 minutes on the design + 30 minutes on the optional prototype] |
+| **Time actually spent** | 1 hour |
 
 ## The design in one paragraph
 
@@ -45,6 +45,6 @@ The sample proposal text is not in this repository, because the brief asks candi
 
 ## How I used AI tools
 
-[TODO: rewrite in your own words, 2–3 sentences. Draft below; edit it to match what actually happened.]
+I used Claude (Claude Code) to turn the brief into an implementation plan and then build each deliverable. I verified that every rule (mandatory gates, budget and 16-week limits, weights adding up to 100%) matched the brief, and I had the AI do only one job: read each proposal and fill each criterion's fields, with an exact quote as evidence. At the end, I reviewed the flags, overrides and award steps myself.
 
-I used Claude (Claude Code) as a pair designer: it drafted the flow, the extraction prompt, the scoring rules and the prototype, and I reviewed and changed them. **Where I disagreed:** [TODO: one real example. For instance, if the AI first suggested letting the model score and rank the proposals directly, you could explain why you moved scoring into plain code: the weights are admin data, arithmetic shouldn't vary between runs, and it keeps the injection in Proposal C away from the ranking.]
+**Where I disagreed:** [TODO: one real example of where you corrected or rejected the AI's output, and why.]
